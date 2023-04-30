@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hp\IdeaProjects\Scala Learning\src\main\scala\Demo.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hp\IdeaProjects\Scala Learning\src\main\scala\Demo.scala:25:20: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    val conf = new SparkConf().setAppName("Demo").setMaster("local[*]")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hp\IdeaProjects\Scala Learning\src\main\scala\Demo.scala:26:18: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = new SparkContext(conf)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hp\IdeaProjects\Scala Learning\src\main\scala\ScalaProject.scala:2:8: object Using is not a member of package util[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.util.{Try, Using}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hp\IdeaProjects\Scala Learning\src\main\scala\ScalaProject.scala:33:5: not found: value Using[0m
+[0m[[0m[31merror[0m] [0m[0m    Using(io.Source.fromFile(filename))(_.mkString).getOrElse("")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hp\IdeaProjects\Scala Learning\src\main\scala\ScalaProject.scala:37:5: not found: value Using[0m
+[0m[[0m[31merror[0m] [0m[0m    Using(new java.io.PrintWriter(filename))(_.write(content)).getOrElse()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
